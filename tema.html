@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fase 3 - Diseñar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel='stylesheet' href='./styles/styles.css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top bg-color-int" style="padding-top: 20px; padding-bottom: 20px">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand NotoSansBold" style="color: #181C31;" href="#">DISEÑO DE SITIOS WEB</a>
+          <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+              <li class="nav-item">
+                <a id="nav-super" class="nav-link active NotoSansRegular" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a id="nav-super" class="nav-link active NotoSansRegular" href="tema.html">Tema</a>
+              </li>
+              <li class="nav-item">
+                <a id="nav-super" class="nav-link active NotoSansRegular" href="audio.html">Audio</a>
+              </li>
+              <li class="nav-item">
+                <a id="nav-super" class="nav-link active NotoSansRegular" href="nosotros.html">Nosotros</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-auto bg-color-aside sticky-top">
+          <div class="d-flex flex-sm-column flex-row flex-nowrap bg-color-aside2 align-items-center sticky-top">              
+            <ul class="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mb-auto mx-auto text-center justify-content-between w-100 px-3 align-items-center" style="margin-top: 200px;">
+              <li class="nav-item NotoSansRegular">
+                <a href="index.html" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right">
+                  <div class="col-lg-3 menu-aside">
+                    <h5 class="text-center">Inicio </h5>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="tema.html" class="nav-link NotoSansRegular py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right">
+                  <div class="col-lg-3 menu-aside">
+                    <h5 class="text-center">Tema </h5>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="audio.html" class="nav-link NotoSansRegular py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right">
+                  <div class="col-lg-3 menu-aside">
+                    <h5 class="text-center">Audio </h5>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="nosotros.html" class="nav-link NotoSansRegular py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right">
+                  <div class="col-lg-3 menu-aside">
+                    <h5 class="text-center">Nosotros </h5>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm p-3 min-vh-100">
+            <!-- Contenido -->
+          <section class="bg-color-int margin-content" id="inicio"><!-- Título del tema e imagen -->
+            <div class="pading-sections">
+              <div class="row">
+                <div class="col-lg-6">
+                  <p class="text-inicial">Diseño de Sitios Web</p>
+                  <p class="text-inicial-dos"><strong>Tema - <span class="color-grad">CSS Grid</span> </strong> </p>
+                  <div class="botton-pr">
+                    <a class="btn btn-lg boton-principal" href="#tema" role="button" style="color: white;">Ver más</a>
+                  </div>
+                </div>
+                <div class="col-lg-6 image-pr">
+                  <img width="400" height="400" src="./images/css-grid.jpg" class="img-fluid" alt="imagen principal">
+                </div>
+              </div>
+            </div>
+          </section><!-- Título del tema e imagen -->
+          <section class="bg-color-audio pading-sections" id="tema">
+            <div class="container">
+              <div class="card pading-sections-audio" style="margin-right: 50px; padding-right: 30px;">
+                <div class="card-body">
+                  <div class="row" style="margin-top: 40px;">
+                    <div class="col-lg-5">
+                      <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background-color: #109fbb; color: white;">
+                              <strong style="color:white"> Índice </strong>
+                          </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <ol>
+                                <a href="#queson"> <li>¿ Qué es CSS Grid? </li></a>
+                                <li>
+                                  <a href="#conceptos"> Conceptos Fundamentales </a>
+                                  <ul>
+                                    <li>
+                                      <a href="#con1"> 1. Grid Container</a>
+                                    </li>
+                                    <li>
+                                      <a href="#con2"> 2. Grid Items</a>
+                                    </li>
+                                    <li>
+                                      <a href="#con3"> 3. Grid Lines</a>
+                                    </li>
+                                    <li>
+                                      <a href="#con4"> 4. Grid Tracks</a>
+                                    </li>
+                                    <li>
+                                      <a href="#con5"> 5. Grid Gaps</a>
+                                    </li>
+                                    <li>
+                                      <a href="#con6"> 6. Grid Lines Naming</a>
+                                    </li>
+                                    <li>
+                                      <a href="#con7"> 7. Grid Areas</a>
+                                    </li>
+                                    <li>
+                                      <a href="#con8"> 8. Grid Template</a>
+                                    </li>
+                                    <li>
+                                      <a href="#con9"> 9. Grid Template Shorthand</a>
+                                    </li>
+                                  </ul>
+                                </li>
+                                <li>
+                                  <a href="#ejemplos"> Ejemplo de Uso </a>
+                                  <ul>
+                                    <li>
+                                      <a href="#ejemplo1"> 1. Mostrando el CSS Grid </a>
+                                    </li>
+                                  </ul>
+                                </li>
+                              </ol>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-7"></div>
+                  </div>
+                  <div class="row" style="margin-top: 40px;">
+                    <div class="col-lg-12"> 
+                      <div id="queson">
+                        <h4> 
+                          <i class="fi fi-rs-angle-double-small-right" style="color: #47B2E4;"></i> ¿Qué es el CSS Grid?
+                        </h4>
+                        <p class="p-contet">
+                          CSS Grid es una herramienta de diseño en CSS, que permite crear diseños de página complejos y flexibles de manera fácil y rápida. Con CSS Grid, podemos dividir la página en filas y columnas, y luego posicionar y ajustar el tamaño de los elementos en cualquier parte de la cuadrícula.
+                        </p>
+                        <p class="p-contet">
+                          CSS Grid funciona mediante la creación de una cuadrícula bidimensional que se divide en filas y columnas. Los elementos HTML se colocan dentro de las celdas de la cuadrícula, y luego se ajustan mediante la especificación de las propiedades CSS para cada elemento.
+                        </p>
+                        <p class="p-contet">
+                          Con CSS Grid, podemos crear diseños de página flexibles y responsivos que se adaptan a cualquier tamaño de pantalla y contenido. También nos permite una mayor libertad creativa y simplifica la estructura de código CSS, lo que facilita la lectura y el mantenimiento del código.
+                        </p>
+                      </div>    
+                      <div style="margin-top: 40px;" id="conceptos">
+                        <h4> 
+                          <i class="fi fi-rs-angle-double-small-right" style="color: #47B2E4;"></i> Conceptos Fundamentales 
+                        </h4>
+                        <p class="p-contet">
+                          A continuación, se presentan los conceptos fundamentales de la herramienta CSS Grid:
+                        </p>
+                        <p class="p-contet" id="con1">
+                          1.	<b>Grid Container:</b> Es el elemento que define el contenedor de la cuadrícula. Para crear una cuadrícula con CSS Grid, es necesario definir un elemento como grid container utilizando la propiedad display: grid.
+                        </p>
+                        <p class="p-contet" id="con2">
+                          2.	<b>Grid Items:</b> Son los elementos que se colocan dentro del grid container. Cada grid item se posiciona dentro de la cuadrícula utilizando líneas horizontales y verticales.
+                        </p>
+                        <p class="p-contet" id="con3">
+                          3.	<b>Grid Lines:</b> Son las líneas que definen los límites de las celdas en la cuadrícula. Las líneas horizontales se llaman grid rows, y las líneas verticales se llaman grid columns.
+                        </p>
+                        <p class="p-contet" id="con4">
+                          4.	<b>Grid Tracks:</b> Son los espacios entre dos líneas adyacentes en la cuadrícula, se dividen en filas (grid rows) y columnas (grid columns), y se utilizan para definir el tamaño de las celdas.
+                        </p>
+                        <p class="p-contet" id="con5">
+                          5.	<b>Grid Gaps:</b> Son los espacios en blanco entre las celdas de la cuadrícula. Se pueden definir gaps para las filas y columnas por separado utilizando las propiedades grid-row-gap y
+                          grip-column-gap, o bien utilizando la propiedad grid-gap para definir ambos de una sola vez.
+                        </p>
+                        <p class="p-contet" id="con6">
+                          6.	<b>Grid Lines Naming:</b> Es la técnica de nombrar las líneas de la cuadrícula para facilitar la definición de las celdas. Se pueden nombrar las líneas utilizando la 
+                          propiedad grid-templates-rows o grid-templates-columns, y luego referirse a ellas utilizando los nombres en lugar de números.
+                        </p>
+                        <p class="p-contet" id="con7">
+                          7.	<b>Grid Areas:</b> Son los bloques de celdas en la cuadrícula que se pueden agrupar y asignar un nombre para facilitar la definición del diseño. Las áreas se definen 
+                          utilizando la propiedad grid-template-areas.
+                        </p>
+                        <p class="p-contet" id="con8">
+                          8.	<b>Grid Template:</b> Es la estructura de la cuadrícula, que se define utilizando las propiedades grid-templates-rows y grid-templates-columns. La estructura se puede definir 
+                          utilizando medidas absolutas, como pixeles, o medidas relativas como porcentajes.
+                        </p>
+                        <p class="p-contet" id="con9">
+                          9.	<b>Grid Template Shorthand:</b> Es una forma abreviada de definir la estructura de la cuadrícula utilizando una sola propiedad: grid-template. Con esta propiedad se pueden definir la estructura de una cuadrícula de CSS Grid de forma más compacta y legible.
+                        </p>
+                        <!--<p class="p-contet" id="con9">
+                          <div class="col-lg-7 image-pr">
+                            <img width="400" height="400" src="./images/CSS Grid.jpg" class="img-fluid" alt="Ejemplo CSS Grid">
+                          </div>
+                        </p>-->
+                      </div>    
+                      <div style="margin-top: 40px;" id="ejemplos">
+                        <h4> 
+                          <i class="fi fi-rs-angle-double-small-right" style="color: #47B2E4;"></i> Ejemplo de CSS Grid 
+                        </h4>
+                      <div id="ejemplo1">
+                        <p class="p-contet">
+                          <b>1. Muestra gráfica de como se distribuiría una página con 9 secciones, de tres columnas por tres filas:</b>                         
+                        </p>
+                        <div class="grid-container">
+                          <div class="item item-1">1</div>
+                          <div class="item item-2">2</div>
+                          <div class="item item-3">3</div>
+                          <div class="item item-4">4</div>
+                          <div class="item item-5">5</div>
+                          <div class="item item-6">6</div>
+                          <div class="item item-7">7</div>
+                          <div class="item item-8">8</div>
+                          <div class="item item-9">9</div>
+                        </div>      
+                      </div>
+                      <hr>    
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>                                 
+      </div>
+    </div>
+
+    <footer class="bg-color-footer" style="padding-top: 30px; padding-bottom: 20px; width:100%; bottom: 0px;">
+      <section class="footer">
+        <p class=" text-center"> &copy; Copyright - Julián Ruiz - 9 de abril del 2023</p>
+        <p>
+          Escuela de Ciencias Básicas, Tecnología e Ingeniería, Universidad Nacional Abierta y a Distancia UNAD
+          <br>
+          301122: Diseño de Sitios Web
+          <br>
+          Prof. Josué Ignacio Ochoa Torres
+        </p>
+      </section>
+    </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
